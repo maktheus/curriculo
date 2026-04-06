@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Serrão Uchôa - ATS Resume</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f4f4f4;
+      color: #111;
+      font-family: Arial, Calibri, Helvetica, sans-serif;
+      line-height: 1.4;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 24px auto;
+      background: #fff;
+      padding: 16mm;
+      box-shadow: 0 0 8px rgba(0,0,0,0.08);
+      position: relative;
+    }
+    h1, h2, h3, p, ul { margin: 0; }
+    .name { font-size: 24px; font-weight: 700; }
+    .headline { font-size: 13px; margin-top: 4px; }
+    .contact { font-size: 12px; color: #333; margin-top: 4px; }
+    .divider {
+      margin-top: 12px;
+      margin-bottom: 8px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid #000;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+    }
+    .entry { margin-bottom: 10px; }
+    .entry-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .entry-role { font-size: 12px; font-weight: 700; }
+    .small { font-size: 12px; }
+    ul { padding-left: 18px; margin-top: 4px; }
+    li { font-size: 12px; margin-bottom: 3px; }
+    .lang-switcher {
+      position: absolute;
+      top: 16mm;
+      right: 16mm;
+      font-size: 12px;
+    }
+    .lang-switcher a {
+      color: #666;
+      text-decoration: none;
+      border: 1px solid #ccc;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+    .lang-switcher a:hover { background: #f0f0f0; }
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; width: 100%; min-height: auto; box-shadow: none; }
+      @page { size: A4; margin: 0; }
+      .lang-switcher { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="lang-switcher">
+      <a href="./index.html">🇺🇸 English</a>
+    </div>
+    <header>
+      <p class="name">MATHEUS SERRÃO UCHÔA</p>
+      <p class="headline">Engenheiro de Software | Backend, Full Stack, Android (AOSP/Kotlin) | AI/ML | Cloud & DevOps</p>
+      <p class="contact">Manaus, AM, Brasil • maktheus@gmail.com • (92) 98196-9221 • linkedin.com/in/maktheus • github.com/maktheus</p>
+    </header>
+
+    <section>
+      <p class="divider">Resumo</p>
+      <p class="small">
+        Engenheiro de Software com mais de 6 anos de experiência desenvolvendo sistemas escaláveis em Backend, Full Stack, framework Android (AOSP) e fluxos de IA/ML.
+        Histórico comprovado em melhoria de desempenho em até 45%, redução de crashes/ANRs em 25% e aceleração de ciclos de lançamento em ~20%.
+        Experiência em engenharia de software, design de sistemas, arquitetura orientada a microsserviços, APIs REST, CI/CD e entrega Ágil em equipes multidisciplinares.
+      </p>
+    </section>
+
+    <section>
+      <p class="divider">Habilidades</p>
+      <p class="small"><strong>Engenharia de Software:</strong> Engenharia de Software, Design de Sistemas, Escalabilidade, Microsserviços, Design de APIs, Sistemas Distribuídos.</p>
+      <p class="small"><strong>Backend:</strong> Java, Kotlin, Python, Node.js, APIs REST, conceitos de FastAPI, conceitos de Spring Boot.</p>
+      <p class="small"><strong>Frontend:</strong> React, TypeScript, JavaScript, HTML, CSS, Material UI.</p>
+      <p class="small"><strong>DevOps / Nuvem:</strong> conceitos AWS, Docker, conceitos Kubernetes, conceitos Terraform, CI/CD, Integração Contínua, Monitoramento, Git/GitHub.</p>
+      <p class="small"><strong>Testes / QA:</strong> Testes Unitários, Testes de Integração, Automação, Estratégia de Teste, Análise de Regressão.</p>
+      <p class="small"><strong>Dados / IA:</strong> Machine Learning, Análise de Dados, Feature Engineering, TensorFlow, Detectron2, AutoML, OpenCV.</p>
+      <p class="small"><strong>Bancos de Dados:</strong> conceitos PostgreSQL, conceitos MySQL, conceitos MongoDB, conceitos Redis, SQL.</p>
+      <p class="small"><strong>Metodologias:</strong> Agile, Scrum, Kanban, DevOps.</p>
+      <p class="small"><strong>Habilidades Comportamentais:</strong> Comunicação, Ownership, Colaboração, Liderança, Gestão de Stakeholders.</p>
+    </section>
+
+    <section>
+      <p class="divider">Experiência</p>
+
+      <article class="entry">
+        <div class="entry-head"><span>Stone, Brasil</span><span>Out 2024 - Presente</span></div>
+        <p class="entry-role">Engenheiro de Software</p>
+        <ul>
+          <li>Entregou funcionalidades B2B multiplataforma usando Kotlin Multiplatform para Android/iOS, reduzindo o retrabalho específico de cada plataforma em cerca de 25%.</li>
+          <li>Refinou a arquitetura e a estratégia de modularização, melhorando o desempenho do app em ~30% e reduzindo a dívida técnica nos módulos centrais.</li>
+          <li>Liderou melhorias de CI/CD e Integração Contínua com as equipes de produto, backend e design, encurtando o tempo do ciclo de lançamentos em ~20%.</li>
+          <li>Aplicou análises baseadas em machine learning em fluxos de software para dar suporte a decisões de produto guiadas por dados.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>CESAR (Projeto Motorola), Manaus, AM</span><span>Jan 2022 - Out 2024</span></div>
+        <p class="entry-role">Engenheiro de Framework Android</p>
+        <ul>
+          <li>Refatorou componentes do Android Open Source Project (AOSP) em framework, câmera e sensores usando Java/C++, reduzindo a queda de frames em fluxos pesados de câmera em ~18%.</li>
+          <li>Aumentou o desempenho do sistema em até 45%, reduziu crashes/ANRs em 25% e diminuiu o tempo de resposta de serviços essenciais em até 20% em builds de produção.</li>
+          <li>Eliminou regressões de versão do Android relacionadas a renderização, ciclo de vida, brilho e integração de hardware, diminuindo a recorrência de defeitos pós-lançamento em ~22%.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>Instituto de Pesquisas Eldorado, Brasil</span><span>Jan 2022 - Ago 2023</span></div>
+        <p class="entry-role">Desenvolvedor de Plataforma Android (Função Paralela)</p>
+        <ul>
+          <li>Integrou o Android Framework com Camera HAL para ambientes embarcados, validando a compatibilidade em mais de 10 combinações de sensores e dispositivos.</li>
+          <li>Otimizou os fluxos dos serviços de câmera e framework entre 20-30% e reduziu crashes/ANRs em ~25% através de depuração (debugging) de baixo nível.</li>
+          <li>Corrigiu código no framework de câmera em C/C++ e Java, economizando ~10 MB de memória e melhorando a estabilidade para 10 casos de uso intensivos de câmera.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>Universidade Federal do Amazonas (UFAM), Brasil</span><span>Jan 2020 - Presente</span></div>
+        <p class="entry-role">Engenheiro de IA / Pesquisador de P&amp;D</p>
+        <ul>
+          <li>Liderou pesquisas aplicadas em ML em visão computacional, processamento de áudio e análise de séries temporais usando Python e TensorFlow através de 8+ fluxos de pesquisa industrial.</li>
+          <li>Desenvolveu um pipeline industrial para reconhecimento de ações com Detectron2 e AutoML, alcançando 88% de precisão em testes em cenários reais.</li>
+          <li>Entregou múltiplos projetos de IA (ResNet, UNet, TSMixer, benchmark RAG) e co-autorou mais de 12 publicações, incluindo palestras/eventos na IEEE.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>SUPER/UFAM, Brasil</span><span>Jan 2021 - Dez 2021</span></div>
+        <p class="entry-role">Desenvolvedor Full Stack</p>
+        <ul>
+          <li>Conduziu o desenvolvimento e a entrega de uma plataforma interna usando React, TypeScript, Node.js e APIs REST, consolidando mais de 20 features em um único ciclo de entrega.</li>
+          <li>Reduziu o tempo de carregamento da página em ~30%, reduziu em ~20% a taxa de bugs/falhas e aumentou a satisfação dos usuários internos em ~25%.</li>
+          <li>Estabilizou a confiabilidade do deploy ao padronizar o CI/CD e o versionamento de API, reduzindo a frequência de rollbacks (reversão de atualizações) em ~15%.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>COLTECH - Empresa Júnior de Consultoria em Engenharia, Manaus, AM</span><span>Jan 2019 - Nov 2019</span></div>
+        <p class="entry-role">Desenvolvedor Full Stack</p>
+        <ul>
+          <li>Desenvolveu e manteve serviços backend e APIs REST operantes com Node.js, TypeScript, Express, Prisma e Sequelize para uso por múltiplas equipes.</li>
+          <li>Aprimorou a capacidade de processamento do backend em ~30% através de otimizações SQL e ajustes de desempenho do lado servidor (server-side).</li>
+          <li>Estabeleceu práticas seguras de desenvolvimento e integração contínua, reduzindo problemas em produção em ~18% durante cenários de aumento de tráfego.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <p class="divider">Projetos</p>
+      <ul>
+        <li><strong>Nimrod (UFAM/TPV):</strong> Pipeline de Machine Learning para reconhecimento de ações na indústria utilizando Python, TensorFlow, Detectron2 e AutoML; alcançou 88% de precisão.</li>
+        <li><strong>Prometheus (TPV/CETELI):</strong> Sistema IoT para medição de pressão sonora em linhas de produção industrial utilizando STM32 e processamento de sinal em tempo real.</li>
+        <li><strong>Kenobi (LLM Benchmark):</strong> Pipeline base pro benchmark com o modelo RAG e LLM focados em testes de qualidade e latência em fluxos de integração de IA gerativa.</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="divider">Formação Acadêmica</p>
+      <p class="small"><strong>Universidade Federal do Amazonas (UFAM)</strong> — Mestrado em Inteligência Artificial (Início: 2026)</p>
+      <p class="small"><strong>Universidade Federal do Amazonas (UFAM)</strong> — Bacharelado em Engenharia da Computação (2020 - 2024)</p>
+      <p class="small"><strong>Fundação Matias Machline</strong> — Ensino Médio Técnico em Mecatrônica (2017 - 2019)</p>
+      <p class="small"><strong>ICBEU</strong> — Inglês Avançado (ESL) (2015 - 2019)</p>
+    </section>
+
+    <section>
+      <p class="divider">Certificações</p>
+      <ul>
+        <li>Formação em Android Embarcado</li>
+        <li>Ezape - Virtudes Empreendedoras</li>
+        <li>Google Machine Learning Crash Course</li>
+        <li>Data Science Academy: Fundamentos de Python</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="divider">Publicações</p>
+      <ul>
+        <li>Action and Assembly Time Measurement System of Industry Workers using Jetson Nano</li>
+        <li>Action Recognition of Industrial Workers using Detectron2 and AutoML Algorithms</li>
+        <li>Sound Pressure Level Measurement System in an Industrial Production Line using STM32 Platform</li>
+        <li>Automatic Video Labeling with Assembly Actions of Workers on a Production Line Using ResNet</li>
+        <li>Mais de 12 publicações no total, incluindo conferências IEEE</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="divider">Habilidades Técnicas</p>
+      <p class="small">
+        Engenharia de Software, Design de Sistemas, Microsserviços, APIs, Escalabilidade, Java, Kotlin, Python, Node.js, Spring Boot, FastAPI,
+        APIs REST, React, Next.js, TypeScript, JavaScript, HTML, CSS, AWS, Docker, Kubernetes, Terraform, CI/CD, Integração Contínua,
+        Monitoramento, Testes Unitários, Testes de Integração, Automação, QA, Machine Learning, Análise de Dados, Feature Engineering,
+        PostgreSQL, MySQL, MongoDB, Redis, Agile, Scrum, Kanban, DevOps, Comunicação, Ownership, Colaboração.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

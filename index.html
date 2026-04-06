@@ -20,6 +20,7 @@
       background: #fff;
       padding: 16mm;
       box-shadow: 0 0 8px rgba(0,0,0,0.08);
+      position: relative;
     }
     h1, h2, h3, p, ul { margin: 0; }
     .name { font-size: 24px; font-weight: 700; }
@@ -51,11 +52,29 @@
       body { background: #fff; }
       .page { margin: 0; width: 100%; min-height: auto; box-shadow: none; }
       @page { size: A4; margin: 0; }
+      .lang-switcher { display: none; }
     }
+    .lang-switcher {
+      position: absolute;
+      top: 16mm;
+      right: 16mm;
+      font-size: 12px;
+    }
+    .lang-switcher a {
+      color: #666;
+      text-decoration: none;
+      border: 1px solid #ccc;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+    .lang-switcher a:hover { background: #f0f0f0; }
   </style>
 </head>
 <body>
   <main class="page">
+    <div class="lang-switcher">
+      <a href="./pt-br.html">🇧🇷 Português</a>
+    </div>
     <header>
       <p class="name">MATHEUS SERRÃO UCHÔA</p>
       <p class="headline">Software Engineer | Backend, Full Stack, Android (AOSP/Kotlin) | AI/ML | Cloud & DevOps</p>
