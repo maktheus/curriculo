@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Serrão Uchôa - Full Stack Developer (KPIT)</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f4f4f4;
+      color: #111;
+      font-family: Arial, Calibri, Helvetica, sans-serif;
+      line-height: 1.4;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 24px auto;
+      background: #fff;
+      padding: 16mm;
+      box-shadow: 0 0 8px rgba(0,0,0,0.08);
+      position: relative;
+    }
+    h1, h2, h3, p, ul { margin: 0; }
+    .name { font-size: 24px; font-weight: 700; }
+    .headline { font-size: 13px; margin-top: 4px; }
+    .contact { font-size: 12px; color: #333; margin-top: 4px; }
+    .divider {
+      margin-top: 12px;
+      margin-bottom: 8px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid #000;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+    }
+    .entry { margin-bottom: 10px; }
+    .entry-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .entry-role { font-size: 12px; font-weight: 700; }
+    .small { font-size: 12px; }
+    ul { padding-left: 18px; margin-top: 4px; }
+    li { font-size: 12px; margin-bottom: 3px; }
+    .print-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #111;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 13px;
+      border-radius: 6px;
+      cursor: pointer;
+      z-index: 100;
+    }
+    .print-btn:hover { background: #333; }
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; width: 100%; min-height: auto; box-shadow: none; padding: 12mm; }
+      @page { size: A4; margin: 0; }
+      .print-btn { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <button class="print-btn" onclick="window.print()">Salvar como PDF</button>
+
+  <main class="page">
+    <header>
+      <p class="name">MATHEUS SERRÃO UCHÔA</p>
+      <p class="headline">Desenvolvedor Full Stack | Java · Spring Boot · Spring Data JPA · Spring Security · React · Microsoft Azure · Microsserviços · MySQL · Elasticsearch · Kafka · Terraform · CI/CD</p>
+      <p class="contact">Manaus, AM, Brasil • maktheus@gmail.com • (92) 98196-9221 • linkedin.com/in/maktheus • github.com/maktheus</p>
+    </header>
+
+    <section>
+      <p class="divider">Resumo</p>
+      <p class="small">
+        Engenheiro de Software com mais de 6 anos de experiência em desenvolvimento full-stack com Java/Spring Boot no backend e React no frontend,
+        arquitetura de microsserviços escaláveis, APIs REST seguras e implantação de aplicações nativas na nuvem no Microsoft Azure.
+        Histórico comprovado construindo serviços backend com Spring Data JPA, Spring Security, Spring Cloud e Spring Batch;
+        desenvolvendo interfaces React modernas com hooks, gerenciamento de estado e componentes reutilizáveis;
+        integrando Elasticsearch para busca e análise; utilizando Kafka/Event Hub para mensageria assíncrona;
+        e entregando infraestrutura como código com Terraform e pipelines CI/CD via Azure DevOps e GitHub Actions.
+        Experiência em otimização de JVM, ajuste de SQL, indexação de banco de dados MySQL e configuração de segurança com Azure Key Vault, RBAC e Managed Identities.
+        Fluente em inglês (avançado) com experiência em equipes multidisciplinares internacionais.
+      </p>
+    </section>
+
+    <section>
+      <p class="divider">Habilidades</p>
+      <p class="small"><strong>Backend Java/Spring:</strong> Java, Spring Boot, Spring Data JPA, Spring Security, Spring Cloud, Spring Batch, processamento em cache (Spring Cache/Redis), ajuste de JVM, APIs REST, Microsserviços.</p>
+      <p class="small"><strong>Frontend:</strong> React, Hooks (useState, useEffect, useContext, useReducer, hooks customizados), Gerenciamento de Estado (Context API, Redux), Componentes Reutilizáveis, TypeScript, JavaScript, HTML, CSS, Material UI.</p>
+      <p class="small"><strong>Cloud / Microsoft Azure:</strong> Azure App Services, Azure Functions, Azure Storage, Azure SQL/MySQL, Azure Key Vault, RBAC, Managed Identities, Azure DevOps.</p>
+      <p class="small"><strong>IaC / DevOps:</strong> Terraform, Docker, Kubernetes, GitHub Actions, Azure DevOps Pipelines, CI/CD, Integração e Entrega Contínuas.</p>
+      <p class="small"><strong>Bancos de Dados:</strong> MySQL (design de schema, otimização, indexação), PostgreSQL, Elasticsearch (integração e indexação), MongoDB, Redis, SQL avançado.</p>
+      <p class="small"><strong>Mensageria:</strong> Apache Kafka, Azure Event Hub, processamento assíncrono de eventos.</p>
+      <p class="small"><strong>Dados / IA:</strong> Python, TensorFlow, Detectron2, AutoML, Machine Learning, OpenCV, processamento de séries temporais.</p>
+      <p class="small"><strong>Metodologias:</strong> Agile, Scrum, Kanban, DevOps, Liderança Técnica, Resolução de Problemas.</p>
+      <p class="small"><strong>Idiomas:</strong> Português (nativo), Inglês avançado/fluente.</p>
+    </section>
+
+    <section>
+      <p class="divider">Experiência</p>
+
+      <article class="entry">
+        <div class="entry-head"><span>Stone, Brasil</span><span>Out 2024 - Presente</span></div>
+        <p class="entry-role">Engenheiro de Software</p>
+        <ul>
+          <li>Entregou funcionalidades B2B multiplataforma com Kotlin Multiplatform, reduzindo o retrabalho específico de cada plataforma em ~25%.</li>
+          <li>Refinou arquitetura e estratégia de modularização, melhorando desempenho do app em ~30% e reduzindo dívida técnica nos módulos centrais.</li>
+          <li>Liderou melhorias de CI/CD com GitHub Actions junto às equipes de produto, backend e design, encurtando o ciclo de lançamentos em ~20%.</li>
+          <li>Aplicou análises baseadas em machine learning em fluxos de software para suporte a decisões de produto guiadas por dados.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>CESAR (Projeto Motorola), Manaus, AM</span><span>Jan 2022 - Out 2024</span></div>
+        <p class="entry-role">Engenheiro de Framework Android</p>
+        <ul>
+          <li>Refatorou componentes do Android Open Source Project (AOSP) em framework, câmera e sensores usando Java/C++, reduzindo queda de frames em fluxos pesados de câmera em ~18%.</li>
+          <li>Aumentou desempenho do sistema em até 45%, reduziu crashes/ANRs em 25% e diminuiu tempo de resposta de serviços essenciais em até 20% em builds de produção.</li>
+          <li>Eliminou regressões de versão do Android relacionadas a renderização, ciclo de vida e integração de hardware, reduzindo recorrência de defeitos pós-lançamento em ~22%.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>Instituto de Pesquisas Eldorado, Brasil</span><span>Jan 2022 - Ago 2023</span></div>
+        <p class="entry-role">Desenvolvedor de Plataforma Android (Função Paralela)</p>
+        <ul>
+          <li>Integrou Android Framework com Camera HAL para ambientes embarcados, validando compatibilidade em mais de 10 combinações de sensores e dispositivos.</li>
+          <li>Otimizou fluxos dos serviços de câmera e framework entre 20-30% e reduziu crashes/ANRs em ~25% via debugging de baixo nível em Java/C++.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>Universidade Federal do Amazonas (UFAM) — IES/CETELI/LaCCAN, Brasil</span><span>Jan 2020 - Presente</span></div>
+        <p class="entry-role">Engenheiro Full Stack / Pesquisador de P&amp;D (IA, Sistemas Industriais)</p>
+        <ul>
+          <li>Arquitetou e desenvolveu serviços de backend com <strong>Java/Spring Boot</strong>, implementando <strong>Spring Data JPA</strong> para persistência em <strong>MySQL</strong>, <strong>Spring Security</strong> para autenticação/autorização de APIs REST e <strong>Spring Cloud</strong> para configuração e descoberta de serviços em ambientes de microsserviços.</li>
+          <li>Construiu microsserviços escaláveis com <strong>Spring Boot</strong> para ingestão, processamento e exposição de dados industriais (sensores IoT, vídeo, áudio), realizando ajuste de <strong>JVM</strong>, otimização de queries <strong>SQL</strong> e indexação em <strong>MySQL</strong> para suportar alto volume de dados de séries temporais.</li>
+          <li>Integrou <strong>Elasticsearch</strong> como camada de busca e análise sobre grandes volumes de dados de produção industrial, reduzindo latência de consultas em ~40% em comparação com queries SQL diretas.</li>
+          <li>Implementou processamento assíncrono de eventos de sensores utilizando <strong>Apache Kafka</strong> e conceitos de <strong>Azure Event Hub</strong>, garantindo ingestão em tempo real com baixa latência e tolerância a falhas nos pipelines de dados industriais.</li>
+          <li>Desenvolveu front-ends responsivos com <strong>React</strong>, utilizando <strong>hooks customizados</strong> (useReducer, useContext, useMemo), <strong>gerenciamento de estado</strong> com Context API e Redux, e criação de <strong>componentes reutilizáveis</strong> para dashboards de monitoramento industrial em colaboração com designers.</li>
+          <li>Implantou aplicações nativas na nuvem no <strong>Microsoft Azure</strong> utilizando <strong>Azure App Services</strong> para serviços web, <strong>Azure Functions</strong> para processamento serverless de eventos, <strong>Azure Storage</strong> para armazenamento de artefatos e <strong>Azure SQL/MySQL</strong> como banco de dados gerenciado.</li>
+          <li>Adotou infraestrutura como código com <strong>Terraform</strong> para provisionamento dos ambientes Azure e criou pipelines <strong>CI/CD</strong> com <strong>Azure DevOps</strong> e <strong>GitHub Actions</strong>, automatizando build, testes e deploy dos pipelines de ML e serviços backend.</li>
+          <li>Configurou <strong>Azure Key Vault</strong> para gestão segura de secrets e credenciais, aplicou <strong>RBAC</strong> e <strong>Managed Identities</strong> para controle de acesso granular entre serviços Azure, eliminando credenciais hardcoded nos ambientes de pesquisa.</li>
+          <li>Utilizou <strong>Spring Batch</strong> para processamento em lote de grandes conjuntos de dados de vídeo/sensor, e <strong>Spring Cache</strong> com Redis para redução de carga no banco de dados em consultas frequentes nos sistemas de monitoramento.</li>
+          <li>Entregou múltiplos projetos (ResNet, UNet, TSMixer, benchmark RAG, Nimrod, Prometheus) e co-autorou mais de 12 publicações, incluindo conferências IEEE, sobre visão computacional, processamento de áudio e análise de séries temporais.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>SUPER/UFAM, Brasil</span><span>Jan 2021 - Dez 2021</span></div>
+        <p class="entry-role">Desenvolvedor Full Stack</p>
+        <ul>
+          <li>Liderou desenvolvimento e entrega de plataforma interna com backend em <strong>Java/Spring Boot</strong> + <strong>Spring Data JPA</strong>/<strong>MySQL</strong> e frontend em <strong>React</strong> com <strong>hooks</strong>, <strong>gerenciamento de estado</strong> e <strong>componentes reutilizáveis</strong>, consolidando mais de 20 features em um único ciclo.</li>
+          <li>Construiu camadas de serviço seguras com <strong>Spring Security</strong> (JWT, OAuth2) e integrou <strong>Elasticsearch</strong> para busca full-text nos dados da plataforma, melhorando a experiência de usuário na navegação de registros.</li>
+          <li>Implementou pipelines <strong>CI/CD</strong> com <strong>GitHub Actions</strong> e padronizou versionamento de API, reduzindo rollbacks em ~15% e encurtando o ciclo de deploy em ~20%.</li>
+          <li>Otimizou queries <strong>MySQL</strong>, ajustou índices de banco de dados e adotou <strong>Spring Cache</strong> para reduzir o tempo de carregamento de página em ~30% e a taxa de bugs em ~20%.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head"><span>COLTECH - Empresa Júnior de Consultoria em Engenharia, Manaus, AM</span><span>Jan 2019 - Nov 2019</span></div>
+        <p class="entry-role">Desenvolvedor Full Stack</p>
+        <ul>
+          <li>Desenvolveu e manteve serviços backend e <strong>APIs REST</strong> com Node.js, TypeScript, Express, Prisma e Sequelize, servindo múltiplas equipes com interfaces <strong>React</strong> responsivas.</li>
+          <li>Aprimorou capacidade de processamento do backend em ~30% via otimizações <strong>SQL</strong>, ajuste de índices em <strong>MySQL</strong> e tuning server-side.</li>
+          <li>Estabeleceu práticas seguras de desenvolvimento e integração contínua com <strong>Docker</strong> e <strong>CI/CD</strong>, reduzindo incidentes em produção em ~18% durante picos de tráfego.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <p class="divider">Projetos Destacados</p>
+      <ul>
+        <li><strong>Nimrod (UFAM/TPV):</strong> Pipeline de ML com backend <strong>Java/Spring Boot</strong>, <strong>MySQL</strong>, <strong>Elasticsearch</strong> e <strong>Kafka</strong> para ingestão de dados; frontend em <strong>React</strong> para visualização; deploy no <strong>Azure</strong> com <strong>Terraform</strong>; alcançou 88% de precisão no reconhecimento de ações industriais com Detectron2/AutoML.</li>
+        <li><strong>Prometheus (TPV/CETELI):</strong> Sistema IoT para medição de pressão sonora em linhas de produção industrial com STM32, processamento de sinal em tempo real e pipeline de dados em <strong>Kafka</strong>.</li>
+        <li><strong>Kenobi (LLM Benchmark):</strong> Pipeline de benchmark para modelos RAG e LLM com <strong>Spring Boot</strong> como API gateway, <strong>Elasticsearch</strong> como vector store e frontend em <strong>React</strong> para visualização de métricas de qualidade e latência.</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="divider">Formação Acadêmica</p>
+      <p class="small"><strong>Universidade Federal do Amazonas (UFAM)</strong> — Mestrado em Inteligência Artificial (Início: 2026)</p>
+      <p class="small"><strong>Universidade Federal do Amazonas (UFAM)</strong> — Bacharelado em Engenharia da Computação (2020 - 2024)</p>
+      <p class="small"><strong>Fundação Matias Machline</strong> — Ensino Médio Técnico em Mecatrônica (2017 - 2019)</p>
+      <p class="small"><strong>ICBEU</strong> — Inglês Avançado/Fluente (ESL) (2015 - 2019)</p>
+    </section>
+
+    <section>
+      <p class="divider">Certificações</p>
+      <ul>
+        <li>Formação em Android Embarcado</li>
+        <li>Google Machine Learning Crash Course</li>
+        <li>Data Science Academy: Fundamentos de Python</li>
+        <li>Ezape - Virtudes Empreendedoras</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="divider">Publicações Selecionadas</p>
+      <ul>
+        <li>Action and Assembly Time Measurement System of Industry Workers using Jetson Nano</li>
+        <li>Action Recognition of Industrial Workers using Detectron2 and AutoML Algorithms</li>
+        <li>Sound Pressure Level Measurement System in an Industrial Production Line using STM32 Platform</li>
+        <li>Automatic Video Labeling with Assembly Actions of Workers on a Production Line Using ResNet</li>
+        <li>Mais de 12 publicações no total, incluindo conferências IEEE</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="divider">Habilidades Técnicas (ATS)</p>
+      <p class="small">
+        Java, Spring Boot, Spring Data JPA, Spring Security, Spring Cloud, Spring Batch, Spring Cache, Microsserviços, APIs REST, JVM tuning,
+        React, Hooks, Gerenciamento de Estado, Redux, Context API, Componentes Reutilizáveis, TypeScript, JavaScript, HTML, CSS, Material UI,
+        Microsoft Azure, Azure App Services, Azure Functions, Azure Storage, Azure SQL, Azure Key Vault, RBAC, Managed Identities, Azure DevOps,
+        Terraform, Docker, Kubernetes, GitHub Actions, CI/CD, Integração Contínua, Entrega Contínua,
+        MySQL, Elasticsearch, PostgreSQL, MongoDB, Redis, SQL, Indexação, Otimização de Banco de Dados,
+        Apache Kafka, Azure Event Hub, Mensageria Assíncrona,
+        Python, TensorFlow, Machine Learning, Detectron2, AutoML, OpenCV,
+        Agile, Scrum, Kanban, DevOps, Liderança, Inglês Avançado.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
