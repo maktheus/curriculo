@@ -68,12 +68,24 @@
       border-radius: 4px;
     }
     .lang-switcher a:hover { background: #f0f0f0; }
-  </style>
+    .btn-download {
+      background: #111;
+      color: #fff;
+      border: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      margin-left: 6px;
+    }
+    .btn-download:hover { background: #333; }
+</style>
 </head>
 <body>
   <main class="page">
     <div class="lang-switcher">
       <a href="../pt-br/">🇧🇷 Português</a>
+      <button class="btn-download" onclick="window.print()">⬇ Download PDF</button>
     </div>
     <header>
       <p class="name">MATHEUS SERRÃO UCHÔA</p>
